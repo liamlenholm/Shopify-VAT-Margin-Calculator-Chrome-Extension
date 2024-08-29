@@ -41,7 +41,7 @@ A Chrome extension that calculates and displays margin and profit for Shopify pr
 ![Extension Popup](./ReadME_Images/popup.PNG)
 _The settings popup for the Shopify VAT Margin Calculator_
 
-![Margin Display](./Readme_images/display.png)
+![Margin Display](./Readme_images/display.PNG)
 _Example of margin and profit display on a Shopify product page_
 
 ## Development
