@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 320px;
+        padding: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI,
+          Roboto, Helvetica Neue, sans-serif;
+        background-color: #f4f6f8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h2 {
+        color: #212b36;
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      h4 {
+        color: #637381;
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: #637381;
+        font-size: 14px;
+        width: 100%;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #c4cdd5;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-bottom: 16px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: #008060;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      button:hover {
+        background-color: #006e52;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Shopify VAT Margin Calculator</h2>
+
+    <label for="vat">VAT Rate (%)</label>
+    <input
+      type="number"
+      id="vat"
+      min="0"
+      max="100"
+      step="0.1"
+      placeholder="Enter VAT rate"
+    />
+
+    <label for="greenThreshold">Healthy Margin Threshold (%)</label>
+    <input
+      type="number"
+      id="greenThreshold"
+      min="0"
+      max="100"
+      step="0.1"
+      placeholder="Enter green threshold"
+    />
+
+    <label for="yellowThreshold">Caution Margin Threshold (%)</label>
+    <input
+      type="number"
+      id="yellowThreshold"
+      min="0"
+      max="100"
+      step="0.1"
+      placeholder="Enter yellow threshold"
+    />
+
+    <button id="save">Save Settings</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

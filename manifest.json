@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Shopify VAT Margin Calculator",
+  "version": "1.0",
+  "description": "Calculate and display margin and profit for Shopify products",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://admin.shopify.com/store/*/products/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}

@@ -1,0 +1,41 @@
+#shopify-margin-display {
+  background-color: #f9fafb;
+  border: 1px solid #e1e3e5;
+  border-radius: 3px;
+  padding: 16px;
+  margin-top: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI,
+    Roboto, Helvetica Neue, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#shopify-margin-display .margin-info,
+#shopify-margin-display .profit-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shopify-margin-display .label {
+  color: #637381;
+  font-size: 14px;
+}
+
+#shopify-margin-display .value {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#shopify-margin-display .icon {
+  margin-right: 8px;
+}
+
+#shopify-margin-display .margin-info .value {
+  color: inherit;
+}
+
+#shopify-margin-display .profit-info .value {
+  color: inherit;
+}
