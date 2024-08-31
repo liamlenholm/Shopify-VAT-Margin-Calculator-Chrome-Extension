@@ -1,4 +1,4 @@
-const currentVersion = "1.0";
+const currentVersion = "1.1";
 const versionInfoUrl =
   "https://raw.githubusercontent.com/liamlenholm/Shopify-VAT-Margin-Calculator-Chrome-Extension/master/version.json";
 const repoUrl =
