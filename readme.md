@@ -1,4 +1,4 @@
-# Shopify VAT Margin Calculator
+-# Shopify VAT Margin Calculator
 
 A Chrome extension that calculates and displays margin and profit for Shopify products, taking VAT into account.
 
