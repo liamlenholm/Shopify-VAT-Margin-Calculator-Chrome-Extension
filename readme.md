@@ -14,7 +14,7 @@ A Chrome extension that calculates and displays margin and profit for Shopify pr
 
 1. Clone this repository or download the ZIP file and extract it.
 2. Open Chrome and go to `chrome://extensions/`.
-3. Enable "Developer mode" in the top right corner.
+3. Enable "Developer mode" in the top right corner. 
 4. Click "Load unpacked" and select the folder containing the extension files.
 
 ## Usage
