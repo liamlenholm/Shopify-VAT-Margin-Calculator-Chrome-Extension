@@ -82,7 +82,7 @@ When a new version is released:
 2. Users will see an update notification in the extension popup.
 3. Click the provided link to visit the GitHub repository and download the latest version.
 
-### For developers:
+### For developers: 
 
 To update the version:
 
